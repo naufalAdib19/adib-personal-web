@@ -55,7 +55,7 @@ const projects: any[] = [
   },
 ];
 
-const work = () => {
+const Work = () => {
   const [project, setProject] = useState(projects[0]);
   const swiperRef: any = useRef();
 
@@ -135,4 +135,4 @@ const work = () => {
   );
 };
 
-export default work;
+export default Work;

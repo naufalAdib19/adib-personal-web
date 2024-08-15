@@ -36,7 +36,8 @@ export default function Home() {
           <div className="text-center xl:text-left xl:w-1/2 order-2 xl:order-none">
             <span className="text-xl">Frontend Developer</span>
             <h1 className="text-5xl mb-6">
-              Hello I'm <br /> <span className="text-accent">Naufal Adib</span>
+              Hello I&apos;m <br />{" "}
+              <span className="text-accent">Naufal Adib</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               a fourth-year Information Systems student at Brawijaya University.
