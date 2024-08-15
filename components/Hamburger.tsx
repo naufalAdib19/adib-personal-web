@@ -54,10 +54,9 @@ const Hamburger = () => {
         <ul className="text-center">
           {links.map((link, index) => {
             return (
-              <li className="mb-10 text-white">
+              <li className="mb-10 text-white" key={index}>
                 <Link
                   href={link.path}
-                  key={index}
                   className={`${
                     link.path === path &&
                     "text-accent border-b-2 border-accent py-1"
